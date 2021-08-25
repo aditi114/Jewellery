@@ -1,0 +1,302 @@
+*
+{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+     background-image: url("img/bgmain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* top section */
+.heading-div
+{
+    box-shadow: 0 1px 4px rgb(146,161, 176 /15% );
+}.navbar
+{
+   
+    border-bottom: 0.5px solid #e6abb4  ;
+    
+}
+
+.nav-link
+{
+    font-weight: bolder;
+    margin-left: 30px;
+    padding:10px;
+    color:black !important;
+    font-size: 20px;
+    
+    border-radius: 10px;
+    
+}
+.nav-link:hover
+{
+    color:#d85172 !important;
+    font-size: 22px;
+}
+/* intro section */
+.intro
+{
+    background-image: url("img/bg1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+}
+.intro h1{
+    margin-top: 10%;
+}
+.intro h1,.intro h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px  #f47898;
+    font-family: 'Rubik', sans-serif;
+    padding: 0%;
+    margin-bottom: 2%;
+}
+
+/* product section */
+.products h2
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px  #f47898;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+    text-align: center;
+
+}
+.card
+{
+    font-size: 15px;
+    background-color: transparent;    
+}
+.card:hover
+{
+    transition: 0.8s;
+    transform: scale(1.1);
+}
+/* services */
+.services h2
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px  #f47898;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.discount
+{
+    background-color: pink;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+    border: #f47898 1px solid;
+    
+}
+.discount:hover
+{
+    transition: 0.8s;
+    transform: scale(1.1);
+}
+.discount h2
+{
+    margin-bottom: 3px;
+}
+
+
+.discount .title
+{
+    text-transform:uppercase;
+    padding:10px 15px;
+    margin-top:10px;
+    text-align:center;
+    min-height:100px}
+
+
+
+.discount h5
+{
+    padding:0 5px;
+    color: #f47898;
+    font-size: 70px;
+    text-align: center;
+}
+.discount p
+{
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:18px;
+    padding:10px 15px
+}
+.discount .coupon a.open-code
+{
+    color:#6d404b;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+/* login and contact */
+.logincontact h3
+{
+    
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px  #f47898;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+
+}
+/* login */
+.modal-content
+{
+   background-color: transparent;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    font-family: 'Merriweather', serif;
+    opacity: 0.9;
+    
+    
+}
+
+.modal-content:hover
+{
+    opacity:1;
+    transition: 2s;
+}
+/* contact */
+.contact p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact-form{
+    padding: 0 10px;
+    max-width: 600px;   
+}
+
+.modal-content input ,.contact-form-text{
+    display: block;
+    width: 80%;
+    min-height: 10px;
+    padding: 2%;
+    background:palevioletred;
+    color: #ddd;
+    transition: 1s;
+}
+
+
+textarea.contact-form-text{
+    height: 100px;
+}
+.contact-form-btn:hover{
+    background-color:green;
+}
+/* about us section */
+.aboutus
+{
+    color:black;
+    width: 100%;
+}
+.aboutus h3,.aboutus h4, .aboutus h6
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px  #f47898;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 35px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  text-shadow: 2px 2px 3px red;
+}
+
+.fa:hover {
+    
+    color: #E7C6B4;
+    text-decoration: none;
+    transform: scale(1.5);
+    transition: 1s;
+    text-shadow: 2px 2px 3px red;
+}
+.example {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+  }
+  .example .fadedbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:black;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 400px;
+    height: 400px;
+    padding: 130px 20px;
+  }
+  .example:hover .fadedbox {
+    opacity: 0.8;
+  }
+  .example .text {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+  }
+  .example .title {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+  }
+  .example:hover .title,
+  .example:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+/* footer section */
+ .footer
+ {
+     color: white; 
+     text-align: center;
+     font-size: large;
+     font-weight: bolder;
+     width: 100%;
+     text-shadow: 1px 1px 2px #d85172;
+ }
+footer
+{
+     background-image: linear-gradient(to left, #da9bab,#e6abb4);
+    padding: 1%;
+}
